@@ -1,0 +1,58 @@
+body {
+    background-color: aliceblue;
+
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    background-color: beige;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+li {
+    margin: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0%;
+
+}
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.card {
+    padding: 32px;
+    background-color: bisque;
+    margin: 32px;
+    border-radius: 20px;
+    box-shadow: 0 20px 75px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.learn:hover{
+    background-color: blanchedalmond;
+}
+
+
+@media (max-width: 950px) {
+    
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .container {
+        width: 500px;
+    }
+}
